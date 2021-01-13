@@ -1,0 +1,76 @@
+body {
+	background-color: black;
+	
+}
+
+label {
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+}
+
+form {
+	position: relative;
+    left: 125px;
+	top: -87px;
+	animation: fadeIn 13s cubic-bezier(0.25,0.1,0.25,1);
+	
+}
+
+#welcomepage {
+	background: url("images/chessboard.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#aiTitle {
+	color: white;
+	font-size: 75px;
+	font-family: "Times New Roman", Times, serif;
+	animation: fadeIn 7s cubic-bezier(0.25,0.1,0.25,1);
+}
+
+#chessTitle {
+	color: white;
+	font-size: 75px;
+	font-family: "Times New Roman", Times, serif;
+	position: relative;
+    left: 120px;
+	top: -87px;
+	animation: flyin 5s cubic-bezier(0.25,0.1,0.25,1);
+}
+
+#levels {
+	align-content: right;
+}
+
+#chessTable {
+	background-color: white;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -300px;
+}
+
+td {
+	height: 50px;
+	width: 50px;
+	text-align: center;
+}
+
+@keyframes flyin {
+ 0%   { 
+ transform: translateX(200%); 		
+ }
+ 100% { 
+ transform: translateX(0%); 
+ }
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
