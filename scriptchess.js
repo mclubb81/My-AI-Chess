@@ -42,7 +42,7 @@ function generate_table() {
 		cell.innerHTML = blackPieces[0];  
 	  }
 	  
-	  //Placing castles in initial cells
+	  //Placing rooks in initial cells
 	  if(i == 1 && (j == 0 || j == 7)){
 		cell.innerHTML = whitePieces[3];  
 	  }
@@ -58,7 +58,7 @@ function generate_table() {
 		cell.innerHTML = blackPieces[1];  
 	  }
 	  
-	  //Placing rooks in initial cells
+	  //Placing bishops in initial cells
 	  if(i == 1 && (j == 2 || j == 5)){
 		cell.innerHTML = whitePieces[2];  
 	  }
